@@ -9,7 +9,7 @@ function Navigation({ handleRender }) {
         </div>
         <div className="Left_navs">
           <ul className="nav_list">
-            <li className="nav_tab contact">Contact Us✆</li>
+            <li className="nav_tab contact">Contact Us<span className="callicon"></span></li>
             <li className="nav_tab info">i</li>
           </ul>
         </div>
