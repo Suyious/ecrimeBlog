@@ -1,12 +1,13 @@
 import React from "react"; 
+import { Link } from "react-router-dom";
 
 function Navigation() {
   return (
     <div className="Nav">
       <div className="navigation boxwidth">
-        <div className="Logo">
-          <h1>ecrime</h1>
-        </div>
+        <Link to="/" className="Logo">
+          <h1 className="BlogLink">ecrime</h1>
+        </Link>
         <div className="Left_navs">
           <ul className="nav_list">
             <li className="nav_tab contact">Contact Us<span className="callicon"></span></li>
