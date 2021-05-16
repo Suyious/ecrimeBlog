@@ -1,15 +1,18 @@
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
-import Content from './Content';
+import Home from './Home';
 import Navigation from './Navigation';
-import ViewPager from './ViewPager';
 
 function App() {
   return (
-    <div className="App">
-      <Navigation/>
-      <ViewPager/>
-      <Content/>
-    </div>
+    <Router>
+      <div className="App">
+        <Navigation/>
+        <Switch>
+          <Route to="/" component={Home}/>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 

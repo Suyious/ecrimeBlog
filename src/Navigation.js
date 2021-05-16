@@ -1,6 +1,6 @@
 import React from "react"; 
 
-function Navigation({ handleRender }) {
+function Navigation() {
   return (
     <div className="Nav">
       <div className="navigation boxwidth">
