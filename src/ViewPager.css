@@ -79,3 +79,17 @@
   .title h2{
     font-family: 'Roboto Mono', monospace;
   }
+
+  .ViewLink{
+    text-decoration: none;
+    color: white;
+    outline: none;
+    display: inline-block;
+  }
+
+  @media all and (max-width: 480px){
+    .title{
+      width: 80%;
+      margin: 0 auto;
+    }
+  }

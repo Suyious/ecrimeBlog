@@ -84,11 +84,37 @@
 }
 
 .BlogBody{
-    max-width: 90vw;
+    max-width: 80vw;
     width: 60em;
     margin: 5em auto;
 }
 
 .BlogBody p{
     font-size: 1.5em;
+}
+
+@media all and (max-width: 480px){
+    .BlogCard{
+        flex-direction: column;
+    }
+
+    .cardImg{
+        width: 100%;
+    }
+
+    .cardContent{
+        width: 90%;
+    }
+
+    .cardContent h2{
+        font-size: 1.5em;
+    }
+
+    .cardContent p{
+        font-size: 0.9em;
+    }
+
+    .BlogBody p{
+        font-size: 1em;
+    }
 }

@@ -72,3 +72,9 @@ body{
 .callicon{
   font-size: 2em;
 }
+
+@media all and (max-width: 480px){
+  .boxwidth{
+    margin: 0 1em;
+  }
+}
